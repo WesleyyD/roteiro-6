@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Turístico da Paraíba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Guia Turístico da Paraíba</h1>
+
+    <!-- Formulário para adicionar locais -->
+    <form id="form-local">
+        <input type="hidden" id="id">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <textarea id="descricao" placeholder="Descrição" required></textarea>
+        <input type="url" id="foto" placeholder="URL da Imagem" required>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <h2>Locais Cadastrados</h2>
+    <div id="locais-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
